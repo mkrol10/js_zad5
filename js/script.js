@@ -1,6 +1,6 @@
 function getTriangleArea(a, h) {
     if (a <= 0 || h <= 0) {
-        return getTriangleArea.toString = 'Nie prawidłowe dane';
+        return 'Nie prawidłowe dane';
     }
     return a * h / 2;
 }
@@ -17,4 +17,4 @@ console.log('Pole drugiego trojkata wynosi: ' + triangleArea2);
 console.log('Pole trzeciego trojkata wynosi: ' + triangleArea3);
 console.log('Pole czwartego trojkata wynosi: ' + triangleArea4);
 console.log('Pole piątego trojkata wynosi: ' + triangleArea5);
-console.log('Pole piątego trojkata wynosi: ' + triangleArea6);
+console.log('Pole szóstego trojkata wynosi: ' + triangleArea6);
